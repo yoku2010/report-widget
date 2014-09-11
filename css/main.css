@@ -1,0 +1,47 @@
+header {
+    padding-top: 20px;
+    background: #EAEAEA;
+    border-bottom: 1px solid #BBB;
+    margin-bottom: 10px;
+}
+.graph-canvas {
+	height: 350px;
+	width: 100%!important;
+    overflow: hidden;
+    position: relative;
+}
+table.dtable {
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0 5px;
+    position: relative;
+}
+    table.dtable>thead>tr>th {
+        color: #fff;
+        background: #428bca;
+        border-color: #428bca;
+    }
+    table.dtable tr td, table.dtable tr th {
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+    }
+    table.dtable tr td:first-child,
+    table.dtable tr th:first-child {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        border-left: 1px solid #CCC;
+    }
+
+    table.dtable tr td:last-child,
+    table.dtable tr th:last-child {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-right: 1px solid #CCC;
+    }
+    table.dtable span.pin {
+        position: absolute;
+        top: -10px;
+        font-size: 30px;
+        left: -8px;
+        color: #444;
+    }
