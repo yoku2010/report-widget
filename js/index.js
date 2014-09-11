@@ -1,6 +1,6 @@
 $(function(){
-    $('#pbs_reports').reportWidget({
-        title: 'PBS Reports',
+    $('#game_reports').reportWidget({
+        title: 'Game Reports',
         rName: {
             'r1': 'Accuracy Report',
             'r2': 'Time Taken Report',
@@ -11,15 +11,15 @@ $(function(){
                 labels: ["January", "February", "March", "April", "May", "June", "July"],
                 datasets: [
                     {
-                        label: "Barney",
+                        label: "Template Run",
                         data: [30, 60, 10, 40, 33, 22, 50]
                     },
                     {
-                        label: "SciGirls",
+                        label: "Candy Crush",
                         data: [28, 48, 40, 19, 26, 40, 30]
                     },
                     {
-                        label: "Thomas",
+                        label: "2048",
                         data: [50, 10, 30, 40, 20, 13, 33]
                     }
                 ]
@@ -28,11 +28,11 @@ $(function(){
                 labels: ["Jan", "February", "March", "April", "May", "June", "July"],
                 datasets: [
                     {
-                        label: "Buster",
+                        label: "Candy Crush",
                         data: [30, 60, 10, 40, 33, 22, 50]
                     },
                     {
-                        label: "Peg Cat",
+                        label: "2048",
                         data: [28, 48, 40, 19, 26, 40, 30]
                     }
                 ]
